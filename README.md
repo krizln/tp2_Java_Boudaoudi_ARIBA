@@ -13,3 +13,6 @@ La Sphère : Utilisation de l'objet Sphere de JavaFX avec un rayon de 300 unité
 La Texture (Mapping) : Pour que la sphère ressemble à la Terre, nous avons utilisé un PhongMaterial. C'est un matériau qui gère la lumière et la texture. Nous avons appliqué l'image image_ad4b04.jpg comme DiffuseMap. Cela "emballe" l'image autour de la sphère.
 
 L'optimisation : La classe Earth stocke la sphère principale mais aussi toutes les petites sphères rouges. En héritant de Group, si on fait tourner l'objet Earth, tout tourne en même temps (la planète et les aéroports).
+
+<img width="599" height="473" alt="image" src="https://github.com/user-attachments/assets/f3eeda5d-d16e-42a4-b84d-3f7a0043c9fb" />
+
