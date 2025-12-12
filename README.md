@@ -21,5 +21,5 @@ L'optimisation : La classe Earth stocke la sphère principale mais aussi toutes 
 Pour intégrer les données de vols, nous avons créé la classe JsonFlightFiller et l'objet métier Flight.
 
 - Parsing JSON : L'utilisation de la bibliothèque externe javax.json a permis de parcourir l'arborescence du fichier Interrogation sur orly.json.
-- 
+  
 - Réconciliation des données : La difficulté majeure était de lier les informations abstraites du JSON (codes IATA comme "ORY" ou "JFK") aux objets physiques Aeroport. Nous avons implémenté une logique de recherche : pour chaque vol, le programme interroge le World pour récupérer les coordonnées GPS de départ et d'arrivée, créant ainsi un lien fort entre les deux sources de données.
